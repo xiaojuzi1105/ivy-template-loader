@@ -16,11 +16,11 @@ var template = require("index.tpl");
 
 // And then use it somewhere in your code
 template(data) // Pass object with data
+```
 
+Config example using the ```ivy-template-loader``` config block.
 
-Config example using the ```ivy-template-loader``` config block:
-
-``` js
+``` javascript
 module.exports = {
   rules: [
       {
