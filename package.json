@@ -1,0 +1,31 @@
+{
+    "name": "ivy-template-loader",
+    "version": "1.0.0",
+    "description": "Js template webpack loader",
+    "main": "index.js",
+    "author": "liZhuLin",
+    "license": "MIT",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xiaojuzi1105/ivy-template-loader.git"
+    },
+    "bugs": {
+        "url": "https://github.com/xiaojuzi1105/ivy-template-loader/issues"
+    },
+    "homepage": "https://github.com/xiaojuzi1105/ivy-template-loader",
+    "keywords": [
+        "webpack",
+        "plugin",
+        "html",
+        "template"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "babel-core": "^6.25.0",
+        "babel-loader": "^7.1.0",
+        "babel-preset-env": "^1.5.2",
+        "glob": "^7.1.2",
+        "webpack": "^3.0.0"
+    }
+}
