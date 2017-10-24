@@ -9,7 +9,7 @@ let outputDir = '/';
 
 module.exports = {
     cache: true,
-    entry: entries,
+    entry: './index.js',
     output: {
         path: __dirname + outputDir,
         filename: '[name].js?[hash:6]'
