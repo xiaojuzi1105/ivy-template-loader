@@ -13,7 +13,7 @@ var _template = require("./lib/index");
 function getLoaderConfig(loaderContext) {
     var query = loaderUtils.getOptions(loaderContext) || {};
     var configKey = query.config || 'ivy-template-loader';
-    var config = loaderContext.options[configKey] || {};
+    var config = (loaderContext.rootContext ? loaderContext.rootContext[configKey] : loaderContext.options[configKey]) || {};
     delete query.config;
     return _.assign({}, config, query);
 }
